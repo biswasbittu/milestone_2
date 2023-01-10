@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+          h2 {
+            text-align: center;
+            background-color: aquamarine;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid cadetblue;
+            background-color: coral;
+            transition:width 2s  linear , background-color 1s linear , transform 2s  linear ,border-radius 1s linear 2ms ;
+            
+        }
+        .box:hover{
+            width: 300px;
+            background-color: aqua;
+            transform: rotate(30deg);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2> Trangition </h2>
+<div class="box">
+<h3>Trangition</h3>
+</div>
+<div class="box">
+<h3>Trangition</h3>
+</div>
+<div class="box">
+<h3>Trangition</h3>
+</div>
+
+</body>
+</html>

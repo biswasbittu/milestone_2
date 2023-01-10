@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform and transition</title>
+    <style>
+        h2 {
+            text-align: center;
+            background-color: aquamarine;
+        }
+        /* Trans form style */
+        .container,.inner {
+
+            height: 150px;
+            width: 150px;
+            border: 2px solid khaki;
+            
+        }
+        .container{
+            background-color: lightblue;
+        }
+        .inner{
+            background-color: coral;
+            transform: translate(0, 50px  ) scale(0.5) rotate(20deg);
+            
+            
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <h2> Trans form</h2>
+    <!-- .box.container*3>.inner{box-$} -->
+    <div class="box container">
+        <div class="inner">box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-3</div>
+    </div>
+</body>
+
+</html>
